@@ -453,7 +453,18 @@ template {
 *{
 	 -webkit-box-sizing :border-box;
 	         box-sizing :border-box;
+	 color:#736E5F;
 	
+}
+
+body{
+	margin: 0 auto;
+	background:url("/assets/images/bg-rock.jpg");
+	font-family: georgia;
+}
+
+li{
+	list-style: none;
 }
 
 .wrapper{
@@ -511,3 +522,170 @@ template {
 .wrapper-col-12 {
 		width: 100%;
 	}
+
+/*@import "modules/_header";*/
+
+.large-hero{
+	margin: 0 auto;
+	overflow: -y ;
+
+
+
+}
+
+@media (min-width: 800px) {
+
+.large-hero{
+		overflow: hidden
+
+
+
+}
+	}
+
+.large-hero::after{
+			content:"";
+			clear: both;
+			display: table;
+		}
+
+.large-hero p {
+		line-height: 25px;
+		letter-spacing: .7px;
+		font-size: 17px;
+	}
+
+.large-hero__heading{
+	color: #8E7835;
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+	}
+
+@media (min-width: 800px) {
+
+.large-hero__heading{
+		width: 220px
+	}
+	}
+
+.large-hero__text{
+		width: 200px;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+.large-hero__btn{
+		background-color: #857C61;
+		color: #fff;
+		padding: 7px 12px;
+		border-radius: 3px;
+		text-align: center;
+		border: none;
+		margin-left: 60px;
+		margin-top: 20px;
+
+	}
+
+.large-hero__tux-img{
+		overflow: hidden;
+		position: relative;
+		right: 40px;
+		
+	}
+
+.large-hero__sub-heading{
+		width: 250px;
+		text-align: center;
+	}
+
+.large-hero__side-img{
+		margin-bottom: 10px;
+	}
+
+.large-hero__wrapper{
+		float: none;
+		width: 100%;
+
+
+}
+
+@media (min-width: 800px) {
+
+.large-hero__wrapper{
+			float: left;
+			width: 33.33%
+
+
+}
+	}
+
+.feature{
+
+	background:url("/assets/images/bg-pattern.jpg");
+
+	
+}
+
+.feature::after{
+			content:"";
+			clear: both;
+			display: table;
+		}
+
+.feature-heading{
+	color: #8E7835;
+	font-size: 35px;
+	width: 100%;
+	text-align: left;
+	}
+
+.feature__subheading{
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+
+.feature p{
+		line-height: 25px;
+		letter-spacing: .6px;
+		font-size: 15px;
+		padding-right: 17px;
+	}
+
+.feature__img{
+			
+	}
+
+.feature__wrapper-col-8{
+		float: left;
+	}
+
+.feature__wrapper-col-3{
+		float: left;
+	
+
+	}
+
+.feature-left ul{
+
+				
+			
+
+			}
+
+.feature-left ul li{
+				margin-left: -30px;
+
+				width:190px;
+				float: left;
+				
+
+				background: url("/assets/images/border.jpg") repeat-y 40px top;
+			
+			}
+
+.footer::after{
+			content:"";
+			clear: both;
+			display: table;
+		}

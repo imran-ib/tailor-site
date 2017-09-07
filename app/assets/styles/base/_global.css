@@ -1,4 +1,14 @@
 *{
 	 box-sizing :border-box;
+	 color:#736E5F;
 	
+}
+body{
+	margin: 0 auto;
+	background:url("/assets/images/bg-rock.jpg");
+	font-family: georgia;
+}
+
+li{
+	list-style: none;
 }

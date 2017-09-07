@@ -20,5 +20,18 @@ gulp.task("styles",function(){
 				autoprefixer
 				
 				]))
+
+			.on("error", function(errorInfo){
+				console.log(errorInfo.toString());
+				this.emit("end");
+
+			})
+			
 			.pipe(gulp.dest("./app/temp/styles"));
 });
+
+
+// .on('error', function(errorInfo){
+// 				console.log(errorInfo.toString());
+// 				this.emit('end');
+// 			})

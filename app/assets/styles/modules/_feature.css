@@ -1,0 +1,62 @@
+.feature{
+
+	background:url("/assets/images/bg-pattern.jpg");
+	@mixin clearfix;
+	
+
+	&-heading{
+	color: $heading;
+	font-size: 35px;
+	width: 100%;
+	text-align: left;
+	}
+
+	&__subheading{
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+
+	& p{
+		line-height: 25px;
+		letter-spacing: .6px;
+		font-size: 15px;
+		padding-right: 17px;
+	}
+
+	&__img{
+			
+	}
+
+	&__wrapper-col-8{
+		float: left;
+	}
+	&__wrapper-col-3{
+		float: left;
+	
+
+	}
+	&-left {
+			
+			& ul{
+
+				
+			
+
+			}
+
+			& ul li{
+				margin-left: -30px;
+
+				width:190px;
+				float: left;
+				
+
+				background: url("/assets/images/border.jpg") repeat-y 40px top;
+			
+			}
+
+	}
+
+	
+}
+

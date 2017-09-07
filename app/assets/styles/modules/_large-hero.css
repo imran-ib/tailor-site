@@ -1,0 +1,80 @@
+.large-hero{
+	margin: 0 auto;
+	overflow: -y ;
+
+	@mixin atMedium{
+		overflow: hidden;
+	}
+	
+
+	@mixin clearfix;
+
+	& p {
+		line-height: 25px;
+		letter-spacing: .7px;
+		font-size: 17px;
+	}
+	
+
+
+	&__heading{
+	color: $heading;
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+
+	@mixin atMedium{
+		width: 220px;
+	}
+	}
+
+	&__text{
+		width: 200px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	&__btn{
+		background-color: $icon;
+		color: #fff;
+		padding: 7px 12px;
+		border-radius: 3px;
+		text-align: center;
+		border: none;
+		margin-left: 60px;
+		margin-top: 20px;
+
+	}
+
+	&__tux-img{
+		overflow: hidden;
+		position: relative;
+		right: 40px;
+		
+	}
+
+	&__sub-heading{
+		width: 250px;
+		text-align: center;
+	}
+
+	&__side-img{
+		margin-bottom: 10px;
+	}
+
+
+	&__wrapper{
+		float: none;
+		width: 100%;
+
+		@mixin atMedium{
+			float: left;
+			width: 33.33%;
+
+		}
+
+
+}
+
+
+
+}
