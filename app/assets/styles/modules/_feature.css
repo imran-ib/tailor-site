@@ -1,22 +1,27 @@
 .feature{
 
+	display: flex;
+	justify-content:space-between;
+
 	background:url("/assets/images/bg-pattern.jpg");
-	@mixin clearfix;
-	
+
 
 	&-heading{
+	width: 650px;
 	color: $heading;
 	font-size: 35px;
-	width: 100%;
 	text-align: left;
+	margin-left: 0;
 	}
 
 	&__subheading{
+		
 		font-weight: 400;
 		margin-bottom: 0;
 	}
 
 	& p{
+	
 		line-height: 25px;
 		letter-spacing: .6px;
 		font-size: 15px;
@@ -24,8 +29,58 @@
 	}
 
 	&__img{
+		margin-right: -40px;
+
+	
 			
 	}
+	&__leftSide{
+	margin-left: 200px;
+	margin-right: 0;
+	
+	}
+	&__leftSide ul{
+		display: flex;
+		justify-content:space-between;
+
+
+
+	}
+	&__rightSide{
+	margin-right: 100px;
+	
+	}
+	&__rightSide ul{
+		display: flex;
+		flex-direction:column;
+		justify-content:space-around;
+
+		& li{
+			line-height: 0px;
+			width: 300px;
+			height: 150px;
+			background-color: $sidebarBack;
+			margin-top: 20px;
+			padding: 10px;
+		}
+
+
+	}
+	&-blog__heading{
+		font-size: 14px;
+	}
+	&-blog__text{
+		font-size: 15px;
+	}
+
+	&__date{
+		color:grey;
+		font-size: 11px;
+		padding-bottom: 0;
+	}
+
+
+	/*
 
 	&__wrapper-col-8{
 		float: left;
@@ -57,6 +112,6 @@
 
 	}
 
-	
+	*/
 }
 

@@ -1,3 +1,62 @@
 .footer{
-	@mixin clearfix;
+	display: flex;
+	
+	
+	&-heading{
+		color: #fff;
+	}
+
+	&-text{
+		line-height: 20px;
+		letter-spacing: .8px;
+		margin-right: 30px;
+	}
+
+	&__social ul{
+		display: flex;
+		justify-content:space-between;
+
+
+		& li{
+			margin: 0;
+
+		}
+			
+
+			& li img{
+
+				width: 25px;
+				height: 25px;
+				
+			}
+	}
+	&__input{
+		display: flex;
+		
+		justify-content:flex-start;
+	}
+
+	&__input[type=email]{
+		
+		padding: 10px;
+	}
+
+	&__newsletter{
+		margin-right:0px;
+	}
+
+	&__btn{
+		background-color: grey;
+		color: #fff;
+		width: 50px;
+
+	}
+
+
+	
+}
+
+.copyrights{
+	text-align: center;
+	margin: 20px 0;
 }

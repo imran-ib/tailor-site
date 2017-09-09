@@ -1,13 +1,26 @@
 .large-hero{
 	margin: 0 auto;
 	overflow: -y ;
+	display: block;
+
+			@mixin atMedium{
+			display: flex;
+			justify-content:space-around;
+			}
+
+	&__flex{
+		
+
+	}
+	&__sub-flex{
+
+	}
 
 	@mixin atMedium{
 		overflow: hidden;
 	}
 	
 
-	@mixin clearfix;
 
 	& p {
 		line-height: 25px;
@@ -20,7 +33,7 @@
 	&__heading{
 	color: $heading;
 	font-size: 35px;
-	width: 100%;
+	width: 30%;
 	text-align: center;
 
 	@mixin atMedium{
@@ -29,9 +42,18 @@
 	}
 
 	&__text{
-		width: 200px;
+		width: 300px;
 		text-align: center;
-		margin-top: 20px;
+		margin-left: 0px;
+
+		
+
+			@mixin atSmall{
+			width: 200px;
+			text-align: center;
+			margin-top: 20px;
+
+	}
 	}
 	&__btn{
 		background-color: $icon;
@@ -42,15 +64,19 @@
 		border: none;
 		margin-left: 60px;
 		margin-top: 20px;
+		
 
 	}
 
 	&__tux-img{
 		overflow: hidden;
-		position: relative;
-		right: 40px;
+		margin-top: 0;
 		
 	}
+		@mixin atSmall{
+		
+
+		}
 
 	&__sub-heading{
 		width: 250px;
@@ -62,18 +88,7 @@
 	}
 
 
-	&__wrapper{
-		float: none;
-		width: 100%;
 
-		@mixin atMedium{
-			float: left;
-			width: 33.33%;
-
-		}
-
-
-}
 
 
 
