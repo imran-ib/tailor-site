@@ -1,6 +1,7 @@
 .footer{
 	display: flex;
-	
+/*	background: url("/assets/images/bg-pattern.jpg");
+*/	
 	
 	&-heading{
 		color: #fff;

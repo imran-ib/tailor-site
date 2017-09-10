@@ -459,7 +459,7 @@ template {
 
 body{
 	margin: 0 auto;
-	background:url("/assets/images/bg-rock.jpg");
+	background:url("../../assets/images/bg-rock.jpg");
 	font-family: georgia;
 }
 
@@ -533,8 +533,8 @@ a{
 .large-hero{
 	margin: 0px auto;
 	overflow: hidden; ;
-	display: block;
-	background:url("/assets/images/bg-rock.jpg");
+	display: flex;
+	background:url("../../assets/images/bg-rock.jpg");
 
 
 
@@ -546,6 +546,7 @@ a{
 @media (min-width: 800px) {
 
 .large-hero{
+			padding: 0 170px;
 			display: -webkit-box;
 			display: -ms-flexbox;
 			display: flex;
@@ -655,7 +656,7 @@ a{
 	-webkit-box-pack:justify;
 	    -ms-flex-pack:justify;
 	        justify-content:space-between;
-	background:url("/assets/images/bg-pattern.jpg");
+	background:url("../../assets/images/bg-pattern.jpg");
 
 
 	/*
@@ -874,7 +875,7 @@ a{
 	        flex-direction:row-reverse;
 		border-bottom: 10px solid #321;
 	
-	background: url("/assets/images/bg-pattern.jpg");
+	background: url("../../assets/images/bg-pattern.jpg");
 
 
 }
